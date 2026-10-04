@@ -88,7 +88,17 @@ print("My name \ris ") #replaces whatever is after the r """
 
 # print(5 & 9 )  
 # 7<<2(7*2 power 2)   7>>2(7/(2 power 2)) #not print()
-print('I am the house owner')
-name=input("what is your name? ")
-print(name)
-print("hello world")
+
+#membership and identity
+""" 
+a=[1,2,3]
+b=[1,2,3]
+c=a
+print(a is b)   #returns false as their memory is different
+print(a == b)  #returns true as the operator checks only the value
+print(a is c)    # returns true because c=a makes their memory as same
+print(id(a))    #returns the memory allocation id for the variable a
+print(id(b))     #returns the memory allocation id for the variable b
+print(id(c))    #returns the memory allocation id for the variable c. which is same as id of a """
+
+
