@@ -87,4 +87,7 @@ print("My name \ris ") #replaces whatever is after the r """
 #Bitwise operators, print(5 & 4) print(5  4), 
 
 # print(5 & 9 )  
-# 7<<2(7*2 power 2)   7>>2(7/(2 power 2)) #not 
+# 7<<2(7*2 power 2)   7>>2(7/(2 power 2)) #not print()
+print('I am the house owner')
+name=input("what is your name? ")
+print(name)
